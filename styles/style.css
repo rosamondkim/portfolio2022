@@ -1,0 +1,24 @@
+@import "reset.css";
+@import "variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,800&display=swap');
+
+/* components */
+@import "header.css";
+@import "introduce.css";
+@import "aboutme.css";
+@import "skills.css";
+@import "portfolio.css";
+@import "likes.css";
+@import "contacts.css";
+@import "footer.css";
+
+
+/* lala */
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+    color:var(--black);
+    line-height: normal;
+}

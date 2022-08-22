@@ -1,0 +1,23 @@
+.likes{
+    padding: var(--big-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.likes__contents{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.likes__contents div{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.likes__contents i{
+    margin-bottom: 10px;
+    font-size: 30px;
+}

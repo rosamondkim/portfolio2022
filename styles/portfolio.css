@@ -1,0 +1,84 @@
+.portfolios{
+    padding: var(--big-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+span{
+    font-weight: bold;
+}
+.portfolios__Links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio__kakao,
+.portfolio__todo,
+.portfolio__youtube {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding);
+}
+
+
+.kakao__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FAE100;
+    color: #3B1C1C;
+
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.kakao__icon:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.todo__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #394A22;
+    color: #EFF8FF;
+
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.todo__icon:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.youtube__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    color: red;
+
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.youtube__icon:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

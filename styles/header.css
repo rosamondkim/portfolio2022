@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 1;
+    padding: 20px;
+    width: 100%;
+
+    background-color: var(--dark-pink);
+}
+header span{
+    font-weight: bold;
+    color:var(--white);
+    padding : 0 20px;
+}
+header span:last-child{
+    margin-right: 30px;
+}
+
+header span:hover{
+    border-bottom: 3px solid var(--white);
+    cursor: pointer;
+}

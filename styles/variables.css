@@ -1,0 +1,23 @@
+:root{
+    --pink:#d89db6;
+    --dark-pink:#B86D87;
+    --light-pink:#ffcee8;
+
+    --white:#ededed;
+    --black: #000000;
+    --gray:#707070;
+    --main-border: 1px solid rgba(0,0,0,0.2);
+    --padding: 12px;
+    --big-padding:60px;
+
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #ffcee8, #d89db6, #ffcee8);
+    background-image: -moz-linear-gradient(left, #ffcee8, #d89db6, #ffcee8);
+    background-image: -ms-linear-gradient(left, #ffcee8, #d89db6, #ffcee8);
+    background-image: -o-linear-gradient(left, #ffcee8, #d89db6, #ffcee8);
+    width: 60%;
+    margin-bottom: 30px;
+  }

@@ -1,0 +1,47 @@
+.skills{
+    padding: var(--big-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills__circles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills__html,
+.skills__css,
+.skills__js,
+.skills__passion
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding:30px;
+    margin: 0 20px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.skills__html{
+    background: linear-gradient(90deg,var(--dark-pink) 70%,var(--light-pink) 30%);
+}
+
+.skills__css{
+    background: linear-gradient(90deg,var(--dark-pink) 70%,var(--light-pink) 30%);
+}
+
+.skills__js{
+    background: linear-gradient(90deg,var(--dark-pink) 40%,var(--light-pink) 40%);
+}
+.skills__passion{
+    background-color: var(--dark-pink);
+}
+
+.skills__mention{
+    text-align: center;
+    margin-top: 20px
+}

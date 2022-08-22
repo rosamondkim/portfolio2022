@@ -1,0 +1,11 @@
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--big-padding);
+}
+
+
+.aboutMe p{
+    text-align: center;
+}
